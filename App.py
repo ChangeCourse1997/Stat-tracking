@@ -6,5 +6,6 @@ import os
 st.title('AMK HG CSN')
 st.write(os.getcwd())
 image = Image.open('..\\Data\\Team.jpg')
+
 # Display the image in the Streamlit app
 st.image(image, caption='Members', use_container_width =True)
